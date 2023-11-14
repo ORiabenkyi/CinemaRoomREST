@@ -1,0 +1,18 @@
+GET localhost:28852/seats
+
+###
+POST localhost:28852/purchase
+Content-Type: application/json
+
+{
+  "row": 1,
+  "column": 1
+}
+###
+POST localhost:28852/purchase
+Content-Type: application/json
+
+{
+"row": 1,
+"column": 9
+}
